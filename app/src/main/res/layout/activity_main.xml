@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- ListView để hiển thị danh sách sinh viên -->
+    <ListView
+        android:id="@+id/listViewSinhvien"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp"
+        android:divider="@android:color/darker_gray"
+        android:choiceMode="singleChoice" />
+
+    <!-- Nút để thêm mới sinh viên -->
+    <Button
+        android:id="@+id/buttonGoToAddSinhvien"
+        android:text="Thêm Mới Sinh Viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Nút để thêm mới chuyên ngành -->
+    <Button
+        android:id="@+id/buttonGoToAddChuyennganh"
+        android:text="Thêm Ngành Mới"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Nút để cập nhật thông tin sinh viên -->
+    <Button
+        android:id="@+id/buttonUpdateSinhvien"
+        android:text="Cập Nhật Sinh Viên"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+
+    <!-- Nút để cập nhật thông tin chuyên ngành -->
+    <Button
+        android:id="@+id/buttonUpdateChuyennganh"
+        android:text="Cập Nhật Ngành"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
